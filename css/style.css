@@ -1,10 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    width: 1200px;
+body {
+    width: 1400px;
     margin: auto;
+    background-color: aqua;
 }
+
+.site_header{
+    height: 150px;
+    background-color: rgba(255, 16, 16, 0.801);
+}
+
