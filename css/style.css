@@ -1,3 +1,6 @@
+/* Utilities
+****************** */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +12,9 @@ body {
     margin: auto;
     background-color: rgba(23, 131, 173, 0.589);
 }
+
+/* Settaggio colori header
+************* */
 
 .site_header {
     height: 150px;
@@ -22,7 +28,7 @@ body {
     margin-top: 20px;
 }
 
-
+/* Inizio settaggio colori main */
 
 .block_one {
     height: 500px;
@@ -32,14 +38,6 @@ body {
 .block_two {
     height: 95px;
     background-color: rgba(179, 51, 183, 0.753);
-}
-
-/* ********Clearfix***********/
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .bage_small {
@@ -52,16 +50,34 @@ body {
 .bage_middle {
     width: 55%;
     height: 541px;
-    
     float: left;
     background-color: rgba(241, 123, 12, 0.842);
 }
 
-.margin{
+/* Dimensionamento 3 blocco */
+
+.margin {
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .block_three {
     max-width: 100%;
+}
+
+/* ********Clearfix***********/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FINE clearfix */
+
+/* Dichiarazione blocco colore footer */
+
+.site_footer {
+    height: 67px;
+    background-color: rgba(44, 40, 40, 0.801);
 }
