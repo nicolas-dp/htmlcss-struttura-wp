@@ -16,7 +16,23 @@ body {
 /* Settaggio colori header
 ************* */
 
+/* BONUS SETTINGS 
+*********************/
+.logo {
+    height: 80px;
+    width: 300px;
+    background-color: rgb(214, 252, 0);
+}
+.logo_text {
+    position: relative;
+    height: 70px;
+    background-color: rgba(103, 104, 100, 0.747);
+}
+
+/* **************** */
+
 .site_header {
+    position: relative;
     height: 150px;
     background-color: rgba(255, 16, 16, 0.801);
 }
